@@ -5,7 +5,7 @@ class Solution:
         right = len(height) - 1
 
         while left < right: 
-            # Length = (right - left) - length of the array
+            # Length = (right - left) # This is the length of the array
             # Height = min(height[left], height[right])
                 # Have to use min because water would spill over otherwise
             # Compare the current max height against the new max height to keep the larger
